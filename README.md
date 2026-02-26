@@ -67,12 +67,12 @@ A short delay is added during startup to allow sensor stabilization.
 
 ---
 
-## 📷 Demonstration
+# Demonstration
 https://www.youtube.com/watch?v=z2rG7ZfbP-E 
 
 ---
 
-## 👩‍💻 Author
+# Author
 **Wennie Lim**  
 Electronic Engineering Student  
 Universiti Teknologi Malaysia
