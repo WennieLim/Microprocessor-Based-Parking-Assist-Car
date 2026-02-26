@@ -1,6 +1,6 @@
-# 🚗 Microprocessor-Based Parking Assist Car
+# Microprocessor-Based Parking Assist Car
 
-## 📌 Project Overview
+# Project Overview
 This project implements a microprocessor-based parking assist system using STM32 and multiple sensors to help a vehicle align correctly within a parking space and detect nearby obstacles.
 
 The system provides:
@@ -9,7 +9,7 @@ The system provides:
 
 ---
 
-## ⚙️ Hardware Components
+# Hardware Components
 - STM32 Microcontroller
 - IR Sensors ×4 (Parking alignment detection)
 - KY-032 Obstacle Avoidance Sensor
@@ -19,7 +19,7 @@ The system provides:
 
 ---
 
-## 🔌 Pin Configuration
+# Pin Configuration
 
 | Pin | Function |
 |-----|----------|
@@ -31,19 +31,19 @@ The system provides:
 
 ---
 
-## 🧠 System Operation
+# System Operation
 
-### 🚘 Parking Alignment Detection
+# Parking Alignment Detection
 - All IR sensors detect the correct region → Yellow LED ON
 - Any IR sensor not aligned → Red LED ON
 
-### 🚧 Obstacle Detection
+# Obstacle Detection
 - Obstacle detected by KY-032 → Buzzer ON
 - No obstacle → Buzzer OFF
 
 ---
 
-## 🗂️ Software Description
+# Software Description
 The system is developed using **STM32 HAL**.
 
 Main processes:
@@ -55,12 +55,12 @@ Main processes:
 
 ---
 
-## ⏱️ Initialization
+# Initialization
 A short delay is added during startup to allow sensor stabilization.
 
 ---
 
-## 🧪 Development Environment
+# Development Environment
 - STM32CubeIDE
 - Embedded C
 - STM32 HAL Driver
@@ -68,7 +68,7 @@ A short delay is added during startup to allow sensor stabilization.
 ---
 
 ## 📷 Demonstration
-*(Insert your project images or video link here)*
+https://www.youtube.com/watch?v=z2rG7ZfbP-E 
 
 ---
 
